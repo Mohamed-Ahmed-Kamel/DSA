@@ -572,8 +572,8 @@ To fix the issue of sorting the number, you can use the following syntax:
 /*                    Section 4. Manipulating Arrays                    */
 // Concat
 // Returns a new array and doesn’t change the original arrays.
-let odds = [1 ,3 ,5];
-let evens = [2, 4, 6];
+// let odds = [1 ,3 ,5];
+// let evens = [2, 4, 6];
 // // merge odds and evens array
 // let combined = odds.concat(evens);
 // console.log('Result:', combined); // [1, 3, 5, 2, 4, 6]
@@ -592,8 +592,8 @@ let evens = [2, 4, 6];
 
 
 // Spread Operator: To merge multiple arrays as follows:
-let combined = [...odds, ...evens];
-console.log(combined);
+// let combined = [...odds, ...evens];
+// console.log(combined);
 
 
 
