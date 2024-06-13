@@ -1,6 +1,6 @@
 // Arrays
 /*
-Section 1. Adding/removing elements
+Section 1. Adding & removing elements
 	1. Push: Add one or more to the end of the array and returns the new array’s length.
 	2. Unshift: Add one or more elements to the beginning of an array and returns the new array’s length.
 	3. Pop: Removes the last element from an array and returns the removed element.
@@ -75,7 +75,9 @@ Section 11. Multidimensional Array
 // let scores = [10, 20, 30, 40, 50];
 // let deletedScores = scores.splice(0, 3);
 // console.log(deletedScores); // [10, 20, 30] Deleted
-// console.log(scores); // [40, 50]
+// let insertScores = scores.splice(1, 0, "inserted");
+// console.log(insertScores); // [ 10, 'inserted', 20, 30, 40, 50 ]
+// console.log(scores);
 
 // 2. Insert new elements
 // The splice() method changes the original array. Also, the splice() method does not remove any elements, therefore, it returns an empty array.

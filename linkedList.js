@@ -39,8 +39,7 @@ class LinkedList {
     this.size++;
   }
   addAt(data, index) { // To add a data at a specific index in a list.
-    if (index < 0 || index > this.size) {
-      // check if the index is valid
+    if (index < 0 || index > this.size) { // check if the index is valid
       return console.log("Please enter a valid index.");
     } else {
       let node = new Node(data); // Create a new node
